@@ -1,0 +1,111 @@
+msg = gb + f
+.msg_gb=
+Disk Read Error !
+This file does not exist !
+Loading aborted !
+No player, please insert one...
+No exit door, please insert it...
+Level inexistant !!!
+Do you want to save all level ?
+Disk Write Error !
+Saving successful !
+Saving aborted !
+Loading Level ?
+Clear all Level ?
+LABY Parameters:
+     /Ffile_name    to load data file.
+     /H or /?       to see this help text.
+     /Sspeed        to set game speed:     0 - low
+                                       10000 - fast.
+     /J             to use Joystick A.
+Press a key...
+Player
+Score
+Level
+presents
+ESC Quit
+F1  Restart Level
+F3  Load Level
+Invalid level...
+Be ready...
+Quit Laby ?
+Restart game ?
+You lost this level... I'm sorry !
+Do you want to save High-Score ?
+Do you want to play again ?
+You lost a life !!!
+You won this level !
+Thanks for using an Olf Software program...
+F1  Clear all level
+F2  Save all level
+F4  Next level
+F5  Previous level
+ 0  Put a block
+ 1  Put the player
+ 2  Put an enemy
+ 3  Put a door
+ 4  Put exit key
+ 5  Put exit door
+ 6  Delete case
+ 7  Put bonus
+Enemy
+go to
+left
+right
+Quit Laby Generator ?
+----------
+.msg_f=
+Erreur de lecture sur disque !
+Ce fichier n'existe pas !
+Chargement plant‚ !
+Pas de joueur, ajoutez-en un...
+Pas de porte de sortie, veuillez en mettre une...
+Niveau inexistant !!!
+Voulez-vous sauver tous les niveaux ?
+Erreur d'‚criture sur disque !
+Sauvegarde r‚ussie !
+Sauvegarde plant‚e !
+Charger un niveau ?
+Effacer tous les niveaux ?
+ParamŠtres de LABY:
+     /Fnom_fich     pour charger des niveaux.
+     /H or /?       pour voir ce texte d'aide.
+     /Svitesse      pour changer la vitesse du jeu:     0 - lent.
+                                                    10000 - rapide.
+     /J             pour utiliser la manette de jeu A.
+Appuyez sur une touche...
+Joueur
+Score
+Niveau
+presente
+ESC Sortie
+F1  Recommencer
+F3  Charger Niveaux
+Niveau non valide...
+Soyez prˆt...
+Sortir de Laby ?
+Recommencer le jeu ?
+Vous avez perdu ce jeu... Je suis d‚sol‚ !
+Voulez-vous sauver les meilleurs scores ?
+Voulez-vous rejouer ?
+Vous avez perdu une vie !
+Bravo, vous avez gagn‚ ce niveau...
+Merci d'utiliser un logiciel Olf Software...
+F1  Tout effacer
+F2  Sauver niveaux
+F4  Suivant
+F5  Pr‚c‚dent
+ 0  Met un mur
+ 1  Met le joueur
+ 2  Met un ennemi
+ 3  Met une porte
+ 4  Met exit-key
+ 5  Met exit-door
+ 6  Efface
+ 7  Met un bonus
+Ennemi
+vers
+gauche
+droite
+Sortir de Laby Generator ?
+----------
