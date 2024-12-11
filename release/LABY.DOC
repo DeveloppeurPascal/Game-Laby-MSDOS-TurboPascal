@@ -1,0 +1,148 @@
+                            LABY  COMPILATION
+                          (c) Patrick Pr‚martin
+                       (c)  Olf Software 1991/1992
+
+     Ce logiciel est distribu‚ en Shareware, si vous d‚sirez l'utiliser
+normalement, n'oubliez pas de demander la licence d'utilisateur. Il suffit
+d'envoyer ASK_PGM.TXT et CONTACT.TXT imprim‚s, remplis et accompagn‚s de votre
+r‚glement … Olf Software.
+
+     Vous recevrez en ‚change une disquette contenant une version enregistr‚e
+et personnelle de GAMELABY, une licence imprim‚e (… votre nom), et le DATA DISK
+01 contenant 12 niveaux pour ce jeu. De plus, vous serez mis au courant de la
+sortie des DATA DISK et des versions suivantes de LABY.
+
+     Si vous estimez que ce jeu ne vaut pas la peine d'ˆtre pay‚ 50 francs
+fran‡ais, effacez-le de vos disquettes et disque dur. Si au contraire vous
+appr‚ciez ce jeu, faites le nous savoir en payant la faible somme que nous
+demandons.
+
+_______________________________________________________________________________
+
+
+     GAMELABY (nom de code utilis‚ par Olf Software) contient deux programmes:
+        - LABY : le jeu.
+        - LABY_GEN : l'‚diteur de tableaux.
+
+     En effet, avec ce jeu, vous pourrez cr‚er autant de tableaux que vous le
+voudrez (seule la m‚moire de votre ordinateur vous limite). Vous pouvez aussi
+nous les envoyer (12 au minimum) afin qu'ils soient diffus‚s comme DATA DISK.
+
+     Ce qui suit est une courte documentation pour chacun des programmes de
+cette compilation. Elle vous permettra de mieux les utiliser, mais sachez que
+comme pour tous les programmes Olf Software, vous avez accŠs … une aide en
+passant /? ou /H en paramŠtre lors de l'appel du programme.
+
+_______________________________________________________________________________
+
+
+                              LABY: le jeu
+
+     Le but du jeu est assez simple, vous d‚placez un prisonnier qui cherche …
+s'‚vader d'une prison bien gard‚e. Il a r‚ussi … sortir, mais est maintenant
+enferm‚ dans un labyrinthe de salles tortueuses. Vous devrez prendre les deux
+objets clignotants en ‚vitant les flŠches bleues. Ouvrez les portes, mais
+faites attention, certaines peuvent en faire bouger d'autres...
+
+     Lorsque vous aurez parcouru tous les niveaux, vous aurez gagn‚, mais ce
+sera souvent difficile...
+
+
+     Dans sa version de base, ce jeu ne contient que 3 niveaux. Vous d‚placez
+le personnage indirectement: en fait vous d‚placez un point vers lequel il
+tentera de se diriger en ligne droite.
+
+      Pour jouer:
+           - au clavier: utilisez les flŠches de d‚placement du curseur, et
+                         <ESPACE> pour d‚placer votre pointeur, et d‚finir la
+                         direction actuelle.
+           - … la souris: d‚placez la souris, et s‚lectionner la direction de
+                          votre personnage en cliquant dans le tableau.
+           - au Joystick: Vous d‚placez le pointeur de direction en bougeant le
+                          manche. Appuyez sur un bouton de votre Joystick pour
+                          s‚lectionner le point actuel.
+
+      Pour quitter le jeu, appuyez simplement sur <ESC> et confirmez votre
+           sortie lorsque le programme vous le demande.
+
+      Vous pouvez sauvegarder (par F2) ou charger (par F3) une partie, mais
+      seul le tableau en cours sera sauv‚ ou recharg‚.
+
+      Vous pouvez mettre le jeu en pause en appuyant sur <P>. Il suffit de
+      r‚appuyer sur <P> pour reprendre.
+
+      Pour changer la vitesse:
+           - acc‚l‚rer le jeu avec <+> ou <PgUp>
+           - ralentir le jeu avec <-> ou <PgDn>
+
+
+      Les paramˆtres de la ligne de commande:
+           - /? ou /H : pour avoir une aide sur le programme.
+           - /Sn      : pour d‚finir la vitesse du jeu remplacez n par une
+                        valeur de 0 (lent) … 10000 (rapide).
+           - /Fdtdk   : pour utiliser des tableaux 'fait maison', il suffit de
+                        remplacer dtdk par le nom du fichier correspondant aux
+                        tableaux que vous voulez utiliser.
+           - /J       : pour jouer avec un Joystick.
+
+
+      exemples d'appels:
+
+           - lance le jeu avec la vitesse la plus basse (/S0), les tableaux du
+             fichier LABY.LBD (/FLABY), et la possibilit‚ d'utiliser un
+             Joystick (/J):
+
+                      LABY /S0 /FLABY /J
+
+           - lance le jeu sur un 8086 avec la vitesse maximale (/S10000 prise par
+             d‚faut) et l'affichage de l'‚cran d'aide sur les paramŠtres.
+
+                      LABY /S10000 /?
+
+
+      Attention, si vous utilisez un Joystick, n'oubliez pas de le calibrer
+avant de lancer le jeu. (Cette op‚ration doit ˆtre r‚alis‚e chaque fois que
+vous changez les r‚glages de votre manette, ou lors de la premiŠre
+utilisation) Pour ce faire, lancez le programme SETSTICK et suivez les
+instructions.
+
+_______________________________________________________________________________
+
+
+                    LABY GENERATOR: l'‚diteur de tableaux.
+
+     Si vous d‚sirez cr‚er vos propres tableaux, lancez LABY_GEN. A l'aide de
+la souris ou du clavier, vous d‚ssinerez facilement vos tableaux. Une seule
+contrainte pour qu'un tableau soit accept‚: il faut une porte de sortie, une
+cl‚ et un personnage joueur.
+
+     En tant que cr‚ateur de tableaux pour LABY, vous pouvez nous les proposer
+afin qu'ils soient distribu‚s et qu'ils vous rapportent (peut-ˆtre) un peu
+d'argent.
+
+     L'utilisation de ce programme se passe de commentaires, tout est inscrit …
+l'‚cran, il suffit de cliquer...
+
+_______________________________________________________________________________
+
+
+                       Programmes d'accompagnement.
+
+     Vous avez sans doute vu que ce jeu est maintenant accompagn‚ de plusieurs
+programmes:
+          - SETSTICK: ce programme permet de configurer vos Joysticks afin de
+                      les utiliser avant LABY (paramŠtre /J).
+          - SETDFLT: vous pouvez maintenant consulter les messages de ce jeu en
+                     plusieurs langues. Il suffit d'utiliser SETDFLT et de
+                     choisir la langue par d‚faut, ou de passer les paramŠtres
+                     suivants … LABY:
+                               - /FRANCAIS pour avoir les textes en Fran‡ais,
+                               - /ENGLISH  pour obtenir la version anglaise du
+                               jeu.
+
+     Ces deux programmes modifient le fichier SETUP.CFG, vous ne devez en aucun
+cas le supprimer, ou le jeu serait inutilisable... Il doit toujours ˆtre dans
+le r‚pertoire de LABY et ne peut ˆtre modifi‚ que par les programmeurs de Olf
+Software, ou les programmes accompagnant ce jeu.
+
+_______________________________________________________________________________
